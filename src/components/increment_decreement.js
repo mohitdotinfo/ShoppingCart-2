@@ -1,30 +1,30 @@
-import React, { useState } from 'react';
-import Child from './child';
+// import React, { useState } from 'react';
+// import Child from './child';
 
 
-function Incrementbutton() {
-    const [count, setCount] = useState(0);
+// function Incrementbutton() {
+//     const [count, setCount] = useState(0);
 
-    const handleIncrease = () => {  
-        setCount(count + 1)
-    }
-    const handleDecrease = () =>{
-        setCount(count -1)
-    }
+//     const handleIncrease = () => {  
+//         setCount(count + 1)
+//     }
+//     const handleDecrease = () =>{
+//         setCount(count -1)
+//     }
 
-    return (
-        <div>
-            <button onClick={handleIncrease} >+1</button>
-            <Child count = {count}/>
-            <button onClick={handleDecrease}>-1</button>
-        </div>
-    )
-}
-
-
+//     return (
+//         <div>
+//             <button onClick={handleIncrease} >+1</button>
+//             <Child count = {count}/>
+//             <button onClick={handleDecrease}>-1</button>
+//         </div>
+//     )
+// }
 
 
-export default Incrementbutton;
+
+
+// export default Incrementbutton;
 
 
 // const handleIncerement = () => {
