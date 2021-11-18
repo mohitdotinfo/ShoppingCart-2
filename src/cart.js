@@ -31,7 +31,8 @@ class Cart extends React.Component {
 
                   </div>
                 </Badge>
-                <Button onClick={() => RemoveEvent(i)}>REMOVE</Button>
+                
+                <Button class="btn btn-outline-danger" onClick={() => RemoveEvent(i)}>REMOVE</Button>
               </ListGroup.Item>
 
             </ListGroup>
