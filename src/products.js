@@ -41,7 +41,7 @@ class Products extends React.Component {
                           <Card.Text>
                             {console.log(item.itprice)}
                             {item.itprice.map((e) =>
-                              <Button onClick={() => SizeSelect(item.id, e)}>{e.Size}</Button>
+                              <Button  class="btn btn-outline-secondary" onClick={() => SizeSelect(item.id, e)}>{e.Size}</Button>
 
                            
                                 )
@@ -53,10 +53,10 @@ class Products extends React.Component {
                               <Button>XL</Button> */}
                         </Card.Text>
                         <p>{item.count}</p>
-                        <Button onClick={() => handleIncrease(item.id)}>+</Button>
-                        <Button onClick={() => handleDecrease(item.id)}>-</Button>
-                        <br />
-                        <Button type="submit" onClick={() => CartData(item)} >ADD TO CART</Button>
+                        <Button  class="btn btn-outline-success" onClick={() => handleIncrease(item.id)}>+</Button>
+                        <Button  class="btn btn-outline-success" onClick={() => handleDecrease(item.id)}>-</Button>
+                        <br /><br />
+                        <Button  class="btn btn-warning" type="submit" onClick={() => CartData(item)} >ADD TO CART</Button>
 
                       </Card.Body>
                     </Card>

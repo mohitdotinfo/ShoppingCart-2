@@ -36,5 +36,5 @@ class Category extends React.Component {
 
 export default Category;
 
-
+//fewfeferfreg
 // make counter for select item quantity and add total price button for shopping cart list
